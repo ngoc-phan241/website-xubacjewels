@@ -1,0 +1,433 @@
+/*.bold {
+    font-weight: bold;
+  }*/
+.description {
+    width: auto;
+    white-space: pre-wrap;
+    text-align:justify;
+    margin-right: 50px;
+}
+.main_banner {
+    width: 100%;
+}
+
+.image-slider {
+    height: auto;
+    margin-top: 13px;
+    margin-right: 0;
+    margin-left: 0;
+    /*display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    grid-gap: 20px;
+    align-items: center;*/
+}
+
+.image-item {
+    margin-right: 2px;
+    margin-left: 2px;
+    width: auto;
+}
+
+.image {
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.image img {
+    width: 100%;
+    height:560px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: all 3s ease-in-out;
+    display: block;
+}
+
+.image:hover img{
+    transform: scale(1.3);
+    /*opacity: 0.8;*/
+}
+
+.slick-initialized .slick-slide {
+    margin: 0 10px;
+}
+
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #2cccff;
+    color: white;
+    border: none;
+    z-index: 2px;
+    padding: 10px 20px;
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #2cccff;
+    color: white;
+    border: none;
+    z-index: 2px;
+    padding: 10px 20px;
+}
+
+#wp-products {
+    width: auto;
+   
+}
+
+#wp-products h2 {
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: black;
+    margin-top: -10px;
+}
+
+#wp-products h2:hover {
+    color: #eaa2b4;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.25s ease-in-out;
+}
+
+.list-product {
+    
+    display: grid;
+    grid-template-columns:repeat(4,24%);
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.product{
+    position:relative;
+    margin:10px;
+    text-align:center;
+    padding-bottom:35px;
+  
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.product:hover{
+    border: 1px solid #eaa2b4;
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+}
+
+
+.list-product .item img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list-product .item .name {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.list-product .item .price {
+    color: black;
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: -12px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.list-product .item .sale-price {
+    display: flex;
+    align-items: baseline;
+    margin: 0px;
+    margin-left: 40px;
+    margin-top: -12px;
+}
+
+.list-product .item .sale-price .old-price {
+    font-size: 13px;
+    color: black;
+    text-decoration: line-through;
+}
+
+.list-product .item .sale-price .discount {
+    font-size: 15px;
+    color: red;
+    margin-left: 4px;
+}
+
+.btn-add-product button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 5px 10px; 
+    margin: 10px auto;
+    background-color: #fbcbcb;
+    color:#333;
+    border: none;
+    width: auto;
+}
+
+.btn-add-product button:hover {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 5px 10px; 
+    margin: 10px auto;
+    background-color: #ee8080;
+    
+    border: none;
+    width: auto;
+}
+  
+.btn-add-product button .fa-solid-fa-cart-shopping {
+    margin-right: 10px;
+}
+
+.title-detail {
+    color: #000000;
+    margin-top: 0px;
+}
+
+
+.title-detail:hover {
+    color: #efaec5;
+    margin-top: 0px;
+}
+
+.container-detail {
+    margin-top: 60px;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+    text-align: left;
+    margin-left: 100px; 
+}
+
+.detail .image-detail img {
+    width: 100%;
+    border-radius: none;
+}
+
+.detail .image {
+    position: relative;
+}
+
+.detail .name {
+    font-size: 20px;
+    padding: 40px 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+.detail .price {
+    color: #333;
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.detail .sale-price {
+    margin-top: 25px;
+    display: flex;
+    align-items: baseline;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.detail .sale-price .old-price {
+    font-size: 15px;
+    color: #333;
+    text-decoration: line-through;
+}
+
+.detail .sale-price .discount {
+    font-size: 18px;
+    color: red;
+    margin-left: 4px;
+}
+
+.detail .buttons {
+    margin-top: 10px;
+}
+
+.detail .buttons button {
+    margin-left: 10px;
+    background-color: #fcadad;
+    border: none;
+}
+
+.product {
+    margin:10px;
+    text-align:center;
+    }
+
+.cmt {
+   margin-top:50px; 
+}
+.cmt ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+.cmt ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+.cmt ul li a {
+    color: #333; 
+    text-decoration: none; 
+}
+.cmt ul li i {
+    margin-right: 5px;
+}
+
+.list-blog {
+    
+    display: grid;
+    grid-template-columns:repeat(3,32%);
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+}
+
+.blog{
+    position:relative;
+    margin:10px;
+    text-align:center;
+    padding-bottom:35px;
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.blog .image-blog img:hover{
+    transform: scale(1.3);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.blog .image-blog{
+    display:block;
+	overflow: hidden;
+}
+
+.list-blog .blog .image-blog img {
+    display: block;
+    width: 400px;
+    height:300px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image-blog, .title-blog{
+    position:absolute;
+}
+
+.image-blog{
+    width:350px;
+    height:300px;
+    
+    padding: 7px;
+    border: 1px solid #edd1d1;
+    border-radius: 5px;
+}
+
+.image-blog img{
+    border-radius: 5px;
+}
+
+.title-blog{
+    width:350px;
+    margin-top:220px;
+    width:228px;
+    background: white ;
+    
+    border: 1px;
+    border-radius:5px;
+    box-shadow: 4px 4px 4px 4px #edd1d1;
+}
+.title-blog{
+    color: #333;
+}
+.artical-pages{
+    text-align:justify;
+}
+
+.nd{
+    font-size: 15px;
+    margin-bottom:15px;
+    line-height: 28px;
+}
+
+p{
+    color:black;
+}
+
+.par-nd{
+    margin: 0 0 15px 0;
+}
+
+.list-sp-ct{
+    height:37px;
+}
+.khung{
+    height:200px;
+    background: #f6dcdc;
+    border-radius:5px;
+    padding:10px;
+}
+.breadcrumb {
+    background-color: #f0f0f0;
+}
+
+.btn-danger{
+    background-color:#eaa2b4;
+    border: 1px solid #eaa2b4;
+   
+}
+
+.rounded-pill{
+    z-index: 3;
+}
+.anhhh{
+    z-index: -1;
+}
+.descriptionnn{
+    text-align:justify;
+    width: auto; 
+    white-space: pre-wrap;
+}

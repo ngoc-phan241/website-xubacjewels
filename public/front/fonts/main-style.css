@@ -1,0 +1,278 @@
+.bold {
+    font-weight: bold;
+  }
+.description {
+    width: 500px;
+    white-space: pre-wrap;
+    font-weight: 300;
+
+}
+.main_banner {
+    width: 100%;
+}
+
+.image-slider {
+    height: auto;
+    margin-top: 13px;
+    margin-right: 0;
+    margin-left: 0;
+    /*display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    grid-gap: 20px;
+    align-items: center;*/
+}
+
+.image-item {
+    margin-right: 2px;
+    margin-left: 2px;
+    width: auto;
+}
+
+.image {
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.image img {
+    width: 100%;
+    height:560px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: all 3s ease-in-out;
+    display: block;
+}
+
+.image:hover img{
+    transform: scale(1.3);
+    /*opacity: 0.8;*/
+}
+
+.slick-initialized .slick-slide {
+    margin: 0 10px;
+}
+
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #2cccff;
+    color: white;
+    border: none;
+    z-index: 2px;
+    padding: 10px 20px;
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #2cccff;
+    color: white;
+    border: none;
+    z-index: 2px;
+    padding: 10px 20px;
+}
+
+#wp-products {
+    padding: 50px 134px 78px 134px
+}
+
+#wp-products h2 {
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: black;
+    margin-top: -10px;
+}
+
+#wp-products h2:hover {
+    color: #99AB67;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.25s ease-in-out;
+}
+
+.list-clothes {
+    width: 1000px;
+    display: grid;
+    grid-template-columns:repeat(5,20%);
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.list-clothes .item {
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.item:hover {
+    border: 1px solid #99AB67;
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+}
+
+.list-clothes .item img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list-clothes .item .name {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.list-clothes .item .price {
+    color: #99AB67;
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: -12px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.list-clothes .item .sale-price {
+    display: flex;
+    align-items: baseline;
+    margin: 0px;
+    margin-left: 40px;
+    margin-top: -12px;
+}
+
+.list-clothes .item .sale-price .old-price {
+    font-size: 13px;
+    color: #99AB67;
+    text-decoration: line-through;
+}
+
+.list-clothes .item .sale-price .discount {
+    font-size: 15px;
+    color: red;
+    margin-left: 4px;
+}
+
+.btn-add-product button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 5px 10px; 
+    margin: 10px auto;
+    background-color: #99AB67;
+    border: none;
+    width: auto;
+}
+  
+.btn-add-product button .fa-solid-fa-cart-shopping {
+    margin-right: 10px;
+}
+
+.title-detail {
+    color: #99AB67;
+    margin-top: 0px;
+}
+
+.container-detail {
+    margin-top: 60px;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    gap: 50px;
+    text-align: left;
+}
+
+.detail .image-detail img {
+    width: 100%;
+    border-radius: none;
+}
+
+.detail .image {
+    position: relative;
+}
+
+.detail .name {
+    font-size: 20px;
+    padding: 40px 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+.detail .price {
+    color: #99AB67;
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.detail .sale-price {
+    margin-top: 25px;
+    display: flex;
+    align-items: baseline;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.detail .sale-price .old-price {
+    font-size: 15px;
+    color: #99AB67;
+    text-decoration: line-through;
+}
+
+.detail .sale-price .discount {
+    font-size: 18px;
+    color: red;
+    margin-left: 4px;
+}
+
+.detail .buttons {
+    margin-top: 10px;
+}
+
+.detail .buttons button {
+    margin-left: 10px;
+    background-color: #99AB67;
+    border: none;
+}
+
+
+.cmt {
+   margin-top:50px; 
+}
+.cmt ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+.cmt ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+.cmt ul li a {
+    color: #333; 
+    text-decoration: none; 
+}
+.cmt ul li i {
+    margin-right: 5px;
+}
